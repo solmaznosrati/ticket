@@ -1,6 +1,28 @@
-var a=Math.floor(Math.random()*3);
-alert(a)
+var  city=prompt("نام شهر مقصد را وارد کنید");
 
+
+if (city=="اصفهان"||city=="سنندج"){
+var  numperson=prompt("تعداد مسافرین را وارد کنید");
+var   b=Number(numperson)
+
+if (b<=5){
+    var  z=prompt("قیمت بلیط وارد کنید");
+
+    var   tiket=Number(z);
+    var   c=(b*tiket);
+    var   d=c-((b)*(1/100)*c);
+    
+    alert(d);}
+    
+ else if(b>5){
+        var   tiket=Number(z);
+        var   c=(b*tiket);
+        var   d=c-((c*5/100));
+    
+    alert(d)}} 
+    
+else{
+            alert("بلیط نداریم")}
 
 
 
