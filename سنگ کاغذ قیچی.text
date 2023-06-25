@@ -1,0 +1,22 @@
+
+
+
+    // سنگ کاغذ قیچی
+    
+var a="سنگ";
+var A=Number(a);
+var A=1;
+var b="کاغذ";
+var B=Number(b);
+var B=2;
+var c="قیچی";
+var C=Number(c);
+var C=2;
+
+
+
+var x=prompt("بازی را شروع کنید");
+var y=Math.floor(Math.random()*2);
+
+switch (X==Y)
+

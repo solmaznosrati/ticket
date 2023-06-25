@@ -1,0 +1,23 @@
+
+
+
+//تمرین مثلث
+
+
+var  a=prompt("مقدار اول را وارد کنید");
+var   A=Number(a);
+
+var  b=prompt("مقدار دوم را وارد کنید");
+var   B=Number(b);
+
+var  c=prompt("مقدار سوم را وارد کنید");
+var  C=Number(c);
+
+if (A<B+C &&  B<A+C && C<A+B){
+
+    
+    alert("صحیح");}
+    
+
+else{
+            alert("اشتباه")}

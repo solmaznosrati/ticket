@@ -1,8 +1,11 @@
+
+// تمرین سن
+
 function age(){
 var a=prompt("سن خود را وراد کنید");
 var A=Number(a);
 
-if(A<120){ 
+if(A<150){ 
     
     switch(A){
         case (0):case (1):case (2):case (3):case (4):case (5):
@@ -26,34 +29,3 @@ if(A<120){
    }
 
     age()
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-
-       
-    
-  
-   
-     
-
-
-
-    
