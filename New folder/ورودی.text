@@ -1,0 +1,7 @@
+ var x=prompt("enter number");
+ var z=prompt("enter number2");
+function test(a,b){
+    return "a,b="+a+"," +b;
+}
+     var z=test(x,z);
+     alert(z)

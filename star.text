@@ -1,0 +1,32 @@
+var star="*";
+var myStar=15;
+
+    while((myStar>0)){
+        document.write(star);
+        myStar--;
+                     }
+
+document.write("<br>");
+myStar++
+
+****************************************var star="*";
+var myStar=1;
+
+function stra(){
+    
+ while((myStar<20)&&(myStar>0)){
+    document.write(star);
+     myStar++;
+        if(myStar<20){
+        document.write("<br>"); 
+        while((myStar>0)){
+        document.write(star);
+        myStar--;
+     }}
+     else{
+        break;
+     }
+     
+   }
+
+stra()

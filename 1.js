@@ -1,59 +1,63 @@
-function age(){
-var a=prompt("سن خود را وراد کنید");
-var A=Number(a);
+var x=prompt("بازی را شروع کنید");
 
-if(A<120){ 
-    
-    switch(A){
-        case (0):case (1):case (2):case (3):case (4):case (5):
-        alert("خردسال")
-        break;
-        case (6):case (7):case (8):case (9):case (10):case (11):
-        alert("کودک")
-        break;
-        case (12) : case (13):case (14):case (15):case (16):case (17):case (18):
-            alert("نوجوان")
-            break;
+if (x=="سنگ"){
+    var typex=Number(x);
+    var  typex=0;
 
-        default:
-            alert("بزرگ سال")
+}
 
-    }}
-     else {
-        alert("ورودی نامعتبر")
+else if(x=="قیچی"){
+var typex=Number(x);
+var  typex=1;  
+
+
+ }
+else{x=="کاغذ";
+    var typex=Number(x);
+    var  typex=2;
+
+
+
+}
+
+var y=Math.floor(Math.random()*3);
+if (y==0){
+    alert("سنگ")}
+    else if(y==1){
+        alert("قیچی")
 
     }
-   }
-
-    age()
-
+    else{
+        alert("کاغذ")}
 
 
 
+    if(y==x){
+            alert("مساوی");}
 
-
-
-
-  
-
-
-
-
-
-
-
+          
+        else if((y==2) && (x==1)){
+            alert(" برنده شدی");
 
     
-    
-    
-    
+        }
+        else if((y==1) && (x==2)){
+            alert("کامپیوتر برد");
 
-       
+        }
+        else if((y==0) && (x==2)){
+            alert(" برنده شدی");
     
-  
-   
-     
-
-
-
+        }
+        else if((y==2) && (x==0)){
+            alert("کامپیوتر برد");
     
+        }
+        else if((y==1) && (x==0)){
+            alert(" برنده شدی");
+    
+        }
+        else if((y==0) && (x==1)){
+            alert("کامپیوتر برد");
+    
+        }

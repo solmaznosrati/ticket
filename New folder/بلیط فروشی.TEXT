@@ -1,15 +1,11 @@
 
-    
-
-
-
     //تمرین بلیط فروشی
 
 
 var  city=prompt("نام شهر مقصد را وارد کنید");
 
 
-if (city=="اصفهان"||city=="سنندج"){
+if (city=="اصفهان"||city=="یاسوج"){
 var  numperson=prompt("تعداد مسافرین را وارد کنید");
 var   b=Number(numperson)
 
